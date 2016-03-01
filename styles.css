@@ -1,0 +1,201 @@
+@font-face {
+ font-family: 'Droid Serif';
+ font-style: normal;
+ font-weight: normal;
+ src: local('Droid Serif'), local('DroidSerif'), url('http://themes.googleusercontent.com/font?kit=DgAtPy6rIVa2Zx3Xh9KaNaCWcynf_cDxXwCLxiixG1c') format('truetype');
+} 
+
+
+body {
+    font-family: 'Droid Serif', "Arial", sans-serif;
+    background: #C3C1BE;
+}
+
+h2, h3 {
+    color: #c17d11;
+    text-decoration: none;
+}
+
+aside h2 {
+    color: #eeeee5;
+    text-decoration: none;
+}
+
+p {
+    color: #eeeee5;
+    font-size: 0.9em;
+}
+
+a {
+    color: #eeeee5;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+#pagewrap {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
+}
+header {
+    height: 100px;
+    padding: 0 15px;
+
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: none repeat scroll 0 0 #2E3436;
+    background: url("/chalkboard.jpg") repeat-x scroll left top transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    opacity: 4.5;
+}
+
+header img {
+    float: left;
+    margin: 5px;
+}
+
+#content {
+    width: 200px;
+    float: left;
+
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: url("/chalkboard3.jpg") repeat-x scroll left top transparent;
+    border: 2px solid #EEEEE5;
+    margin: 0px;
+    padding: 5px;
+    color: #eeeee5;
+}
+
+
+#middle {
+    width: 448px; /* Account for margins + border values */
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: url("/chalkboard.jpg") repeat #8f5902;
+    border: 2px solid #EEEEE5;
+}
+
+#sidebar {
+    width: 220px;
+    padding: 5px 15px;
+    float: left;
+
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: none repeat scroll 0 0 #8f5902;
+    background: url("/chalkboard2.jpg") repeat-x scroll left top transparent;
+    border: 2px solid #EEEEE5;
+}
+footer {
+    clear: both;
+    padding: 0 15px;
+
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: url("/chalkboard.jpg") repeat #8f5902;
+    border: 2px solid #EEEEE5;
+}
+
+#flyinglogo {
+    position: absolute;
+    -ms-transform: rotate(45deg);
+    -ms-transform-origin: 20% 40%;
+    -webkit-transform: rotate(45deg);
+    -webkit-transform-origin: 20% 40%;
+    transform: rotate(-11deg);
+    transform-origin: 70% 51%;
+    top: 10px;
+    left: 10px;
+    z-index: -100;
+}
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+
+    #pagewrap {
+        width: 94%;
+    }
+    #content {
+        width: 40%;
+        padding: 1% 4%;
+    }
+    #middle {
+        width: 40%;
+        padding: 1% 4%;
+        margin: 0px 0px 5px 5px;
+        float: right;
+    }
+
+    #sidebar {
+        clear: both;
+        padding: 1% 4%;
+        width: auto;
+        float: none;
+    }
+
+    header, footer {
+        padding: 1% 4%;
+    }
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+    #content {
+        width: auto;
+        float: none;
+    }
+
+    #middle {
+        width: auto;
+        float: none;
+        margin-left: 0px;
+    }
+
+    #sidebar {
+        width: auto;
+        float: none;
+    }
+
+    #flyinglogo {
+        display: none;
+    }
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+    header {
+        height: auto;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+
+    #flyinglogo {
+        display: none;
+    }
+}
+
+header, #content, #middle, #sidebar {
+    margin-bottom: 5px;
+}
+
+#content, #middle, #sidebar {
+    min-height: 410px;
+}
