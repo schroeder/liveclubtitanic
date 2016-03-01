@@ -48,7 +48,7 @@ header {
     -moz-border-radius: 10px;
     border-radius: 10px;
     background: none repeat scroll 0 0 #2E3436;
-    background: url("/chalkboard.jpg") repeat-x scroll left top transparent;
+    background: url("chalkboard.jpg") repeat-x scroll left top transparent;
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
     opacity: 4.5;
@@ -65,7 +65,7 @@ header img {
 
     -moz-border-radius: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    background: url("/chalkboard3.jpg") repeat-x scroll left top transparent;
+    background: url("chalkboard3.jpg") repeat-x scroll left top transparent;
     border: 2px solid #EEEEE5;
     margin: 0px;
     padding: 5px;
@@ -81,7 +81,7 @@ header img {
 
     -moz-border-radius: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    background: url("/chalkboard.jpg") repeat #8f5902;
+    background: url("chalkboard.jpg") repeat #8f5902;
     border: 2px solid #EEEEE5;
 }
 
@@ -93,7 +93,7 @@ header img {
     -moz-border-radius: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
     background: none repeat scroll 0 0 #8f5902;
-    background: url("/chalkboard2.jpg") repeat-x scroll left top transparent;
+    background: url("chalkboard2.jpg") repeat-x scroll left top transparent;
     border: 2px solid #EEEEE5;
 }
 footer {
@@ -102,7 +102,7 @@ footer {
 
     -moz-border-radius: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    background: url("/chalkboard.jpg") repeat #8f5902;
+    background: url("chalkboard.jpg") repeat #8f5902;
     border: 2px solid #EEEEE5;
 }
 
