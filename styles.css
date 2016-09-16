@@ -199,3 +199,8 @@ header, #content, #middle, #sidebar {
 #content, #middle, #sidebar {
     min-height: 410px;
 }
+
+
+.column-left{ float: left; width: 32%; }
+.column-right{ float: right; width: 32%; }
+.column-center{ display: inline-block; width: 32%; }
